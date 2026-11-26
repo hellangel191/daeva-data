@@ -1,7 +1,7 @@
 {
   "app": "daeva-chat",
   "version": 2,
-  "exported_at": "2026-11-21T17:10:07.858Z",
+  "exported_at": "2026-11-26T04:26:22.019Z",
   "id": "aion2",
   "game": {
     "id": "aion2",
@@ -14,9 +14,9 @@
   ],
   "updated_at": "2026-08-24T00:45:23",
   "counts": {
-    "builtin": 119,
-    "mine": 72,
-    "total": 191
+    "builtin": 191,
+    "mine": 2,
+    "total": 193
   },
   "categories": [
     {
@@ -116,11 +116,7 @@
       "icon": "ph-tag"
     }
   ],
-  "hidden": [
-    119,
-    96,
-    85
-  ],
+  "hidden": [],
   "phrases": [
     {
       "id": 127,
@@ -499,8 +495,7 @@
         "en": "Cleric",
         "vi": "Trị liệu",
         "ko": "치유님"
-      },
-      "note": "healer"
+      }
     },
     {
       "id": 103,
@@ -531,8 +526,7 @@
         "en": "No Title",
         "vi": "Không có Danh hiệu",
         "ko": "노칭호"
-      },
-      "note": "không danh hiệu"
+      }
     },
     {
       "id": 101,
@@ -579,7 +573,7 @@
       "count": 11,
       "text": {
         "en": "Main character / main account.",
-        "vi": "acc chính",
+        "vi": "Acc chính",
         "ko": "본캐"
       }
     },
@@ -640,7 +634,7 @@
       "count": 142,
       "text": {
         "en": "Please make the room quickly.",
-        "vi": "tạo room đi nhanh",
+        "vi": "Tạo room đi nhanh",
         "ko": "방 빨리 만들어 주세요"
       }
     },
@@ -721,7 +715,7 @@
       "count": 514,
       "text": {
         "en": "This is my alt.",
-        "vi": "đây là nhân vật phụ ~ this is my sub character",
+        "vi": "Đây là nhân vật phụ ~ this is my sub character",
         "ko": "이게 내 부캐야"
       }
     },
@@ -1518,8 +1512,7 @@
         "en": "O'clock / Time.",
         "vi": "Giờ",
         "ko": "시"
-      },
-      "note": "giờ"
+      }
     },
     {
       "id": 33,
@@ -1532,8 +1525,7 @@
         "en": "Floor.",
         "vi": "Tầng",
         "ko": "층"
-      },
-      "note": "tầng"
+      }
     },
     {
       "id": 34,
@@ -1700,8 +1692,7 @@
         "en": "I'll handle the dribble.",
         "vi": "Tôi sẽ dribble",
         "ko": "드리블도 제가 할게요"
-      },
-      "note": "드리블도 제가 할게요 ,9->12! (tôi sẽ rê từ 9 đến 12)"
+      }
     },
     {
       "id": 44,
@@ -2044,14 +2035,14 @@
     },
     {
       "id": 1000000,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "giao tiếp",
         "chửi"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "너 중국인임? ㅋㅋ",
         "vi": "Mày là China à?",
@@ -2060,14 +2051,14 @@
     },
     {
       "id": 1000001,
-      "mine": true,
+      "mine": false,
       "cat": "AFK",
-      "tag": "AFK / Nghỉ",
       "tags": [
         "giao tiếp",
         "afk"
       ],
-      "note": "chờ hồi skill",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "10초",
         "vi": "10 giây",
@@ -2076,13 +2067,13 @@
     },
     {
       "id": 1000002,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "giao tiếp"
       ],
-      "note": "key",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "방장한번 넘겨주세요",
         "vi": "Chuyển quyền trưởng phòng giúp mình một lần với ạ",
@@ -2091,13 +2082,13 @@
     },
     {
       "id": 1000003,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "tạo phòng"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "새싹있음/ mầm/ 学前班/ sprout",
         "vi": "Mầm",
@@ -2106,13 +2097,13 @@
     },
     {
       "id": 1000004,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp"
       ],
-      "note": "xin vào room",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "저요",
         "vi": "Tao nè",
@@ -2121,13 +2112,13 @@
     },
     {
       "id": 1000005,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "mech"
       ],
-      "note": "skip mech",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "기믹 스킵",
         "vi": "Bỏ qua cơ chế",
@@ -2136,13 +2127,13 @@
     },
     {
       "id": 1000006,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "mech"
       ],
-      "note": "mech bình thường",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "클래식",
         "vi": "Đúng cơ chế",
@@ -2151,14 +2142,14 @@
     },
     {
       "id": 1000007,
-      "mine": true,
+      "mine": false,
       "cat": "Chui",
-      "tag": "Chửi",
       "tags": [
         "giao tiếp",
         "chửi"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "너나 잘해라, 나는 내 할 일 똑똑히 다 했으니까",
         "vi": "Xem lại bản thân mày đi. Tao đã làm xong chuẩn chỉnh phần việc của tao rồi."
@@ -2166,14 +2157,14 @@
     },
     {
       "id": 1000008,
-      "mine": true,
+      "mine": false,
       "cat": "Chui",
-      "tag": "Chửi",
       "tags": [
         "giao tiếp",
         "chửi"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "한국에는 북부 지역이 있나요",
         "vi": "Miền bắc là của Hàn Quốc à ?"
@@ -2181,14 +2172,14 @@
     },
     {
       "id": 1000009,
-      "mine": true,
+      "mine": false,
       "cat": "Chui",
-      "tag": "Chửi",
       "tags": [
         "giao tiếp",
         "chửi"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "행님들아 걍 아구지 물고 게임 하시라예.. 말 ㅈㄴ게 많으시네예..",
         "vi": "Câm mồm lại và chơi game đi, nói nhiều quá"
@@ -2196,13 +2187,13 @@
     },
     {
       "id": 1000010,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "item"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "유일",
         "vi": "Đồ vàng",
@@ -2211,13 +2202,13 @@
     },
     {
       "id": 1000011,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "item"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "영웅",
         "vi": "Đồ đỏ",
@@ -2226,13 +2217,13 @@
     },
     {
       "id": 1000012,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp"
       ],
-      "note": "xưng hô",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "님",
         "vi": "Mày",
@@ -2241,14 +2232,14 @@
     },
     {
       "id": 1000013,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "giao tiếp",
         "thử lại"
       ],
-      "note": "Lee",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "리",
         "vi": "Làm lại",
@@ -2257,13 +2248,13 @@
     },
     {
       "id": 1000014,
-      "mine": true,
+      "mine": false,
       "cat": "Chui",
-      "tag": "Chửi",
       "tags": [
         "chửi"
       ],
-      "note": "Jjang-gae",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "짱개",
         "vi": "Tàu khựa",
@@ -2272,14 +2263,14 @@
     },
     {
       "id": 1000015,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "party",
         "mech"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "색깔 골라주세요",
         "vi": "Chọn màu đi",
@@ -2288,14 +2279,14 @@
     },
     {
       "id": 1000016,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "party",
         "mech"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "ㅊ",
         "vi": "Lục",
@@ -2304,14 +2295,14 @@
     },
     {
       "id": 1000017,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "party",
         "mech"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "ㅍ",
         "vi": "Lam",
@@ -2320,14 +2311,14 @@
     },
     {
       "id": 1000018,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "party",
         "mech"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "ㅃ",
         "vi": "Đỏ",
@@ -2336,13 +2327,13 @@
     },
     {
       "id": 1000019,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "tạo room"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "실력자만요",
         "vi": "Tổ đội có kinh nghiệm",
@@ -2351,26 +2342,26 @@
     },
     {
       "id": 1000020,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "tạo room"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "연팟",
-        "vi": "arty đi liên tục / Kèo chạy nhiều ván liền",
+        "vi": "Party đi liên tục / Kèo chạy nhiều ván liền",
         "en": "Multi-run party"
       }
     },
     {
       "id": 1000021,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "재도",
         "vi": "Thử lại",
@@ -2379,13 +2370,13 @@
     },
     {
       "id": 1000022,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "tạo room"
       ],
-      "note": "xin vào room",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "업둥",
         "vi": "Con nuôi",
@@ -2394,13 +2385,13 @@
     },
     {
       "id": 1000023,
-      "mine": true,
+      "mine": false,
       "cat": "Reactions",
-      "tag": "Cảm xúc",
       "tags": [
         "giận dữ"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "킹쓰",
         "vi": "grrrrrrrrrrrrrrr",
@@ -2409,13 +2400,13 @@
     },
     {
       "id": 1000024,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "giao tiếp"
       ],
-      "note": "xin vào room",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "나 기사임",
         "vi": "Tao là knight"
@@ -2423,13 +2414,13 @@
     },
     {
       "id": 1000025,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "giao tiếp"
       ],
-      "note": "xin vào room",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "안녕하세요 저예요 ___ 예요",
         "vi": "Chào, bố m đây"
@@ -2437,13 +2428,13 @@
     },
     {
       "id": 1000026,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "hỏi"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "마족",
         "vi": "Phe tím",
@@ -2452,13 +2443,13 @@
     },
     {
       "id": 1000027,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "hỏi"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "천족",
         "vi": "Phe xanh",
@@ -2467,13 +2458,13 @@
     },
     {
       "id": 1000028,
-      "mine": true,
+      "mine": false,
       "cat": "Class",
-      "tag": "Class",
       "tags": [
         "class"
       ],
-      "note": "găng, đấm",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "권성",
         "vi": "Quyền tinh",
@@ -2482,13 +2473,13 @@
     },
     {
       "id": 1000029,
-      "mine": true,
+      "mine": false,
       "cat": "Class",
-      "tag": "Class",
       "tags": [
         "class"
       ],
-      "note": "sm, element",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "정령성",
         "vi": "Tinh linh",
@@ -2497,13 +2488,13 @@
     },
     {
       "id": 1000030,
-      "mine": true,
+      "mine": false,
       "cat": "Class",
-      "tag": "Class",
       "tags": [
         "class"
       ],
-      "note": "Dagger",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "살성",
         "vi": "Sát tinh",
@@ -2512,13 +2503,13 @@
     },
     {
       "id": 1000031,
-      "mine": true,
+      "mine": false,
       "cat": "Class",
-      "tag": "Class",
       "tags": [
         "class"
       ],
-      "note": "tank",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "수호성",
         "vi": "Thủ hộ",
@@ -2527,13 +2518,13 @@
     },
     {
       "id": 1000032,
-      "mine": true,
+      "mine": false,
       "cat": "Class",
-      "tag": "Class",
       "tags": [
         "class"
       ],
-      "note": "sách",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "마도성",
         "vi": "Ma đạo",
@@ -2542,13 +2533,13 @@
     },
     {
       "id": 1000033,
-      "mine": true,
+      "mine": false,
       "cat": "Class",
-      "tag": "Class",
       "tags": [
         "class"
       ],
-      "note": "gs",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "검성",
         "vi": "Kiếm tinh",
@@ -2557,13 +2548,13 @@
     },
     {
       "id": 1000034,
-      "mine": true,
+      "mine": false,
       "cat": "Class",
-      "tag": "Class",
       "tags": [
         "class"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "호법성",
         "vi": "Hộ pháp",
@@ -2572,13 +2563,13 @@
     },
     {
       "id": 1000035,
-      "mine": true,
+      "mine": false,
       "cat": "Class",
-      "tag": "Class",
       "tags": [
         "class"
       ],
-      "note": "bow",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "궁성",
         "vi": "Cung",
@@ -2587,15 +2578,15 @@
     },
     {
       "id": 1000036,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "raid",
         "mech",
         "sanc"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "(효열공)  님 드리블 가능해요?",
         "vi": "(tên của người đó) ơi, dẫn/lùa/kéo bóng được không ạ?",
@@ -2604,13 +2595,13 @@
     },
     {
       "id": 1000037,
-      "mine": true,
+      "mine": false,
       "cat": "Bus",
-      "tag": "Bus",
       "tags": [
         "bus"
       ],
-      "note": "Tụi này đã mua đồ treo trên chợ rồi",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "저희 이미 구매해씀",
         "vi": "\"Bọn mình đã mua rồi nhé.\"",
@@ -2619,13 +2610,13 @@
     },
     {
       "id": 1000038,
-      "mine": true,
+      "mine": false,
       "cat": "Bus",
-      "tag": "Bus",
       "tags": [
         "bus"
       ],
-      "note": "Ý  chỉ mua giúp đồ mình đã treo trên chợ khi đang đi bus",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "사주세요",
         "vi": "\"Làm ơn mua cho tôi/em ạ.\"",
@@ -2634,14 +2625,14 @@
     },
     {
       "id": 1000039,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "raid / party",
         "nhân vật"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "캐릭 변경",
         "vi": "\"Đổi nhân vật\" / \"Đổi char\"",
@@ -2650,14 +2641,14 @@
     },
     {
       "id": 1000040,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "party",
         "hỏi"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "또 하실 건가요?",
         "vi": "\"Có định đi tiếp nữa không ạ?\"",
@@ -2666,13 +2657,13 @@
     },
     {
       "id": 1000041,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "raid / party"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "초대할게요",
         "vi": "\"Để mình gửi lời mời cho nhé.\" (Tôi sẽ mời lại)",
@@ -2681,13 +2672,13 @@
     },
     {
       "id": 1000042,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "party"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "계속돌림 x5",
         "vi": "\"quay vòng/chạy tiếp 5 lần nha.\"",
@@ -2696,13 +2687,13 @@
     },
     {
       "id": 1000043,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "party"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "이번이 마지막 라운드입니다",
         "vi": "\"Lượt này là cuối cùng rồi ạ.\"",
@@ -2711,13 +2702,13 @@
     },
     {
       "id": 1000044,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "party"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "막보만 잡으면 돼요,키벨안가도됨",
         "vi": "\"Giết mỗi boss cuối là xong rồi ạ, không cần chạy Kibel.\"",
@@ -2726,13 +2717,13 @@
     },
     {
       "id": 1000045,
-      "mine": true,
+      "mine": false,
       "cat": "Bus",
-      "tag": "Bus",
       "tags": [
         "bus"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "버스 방입니다",
         "vi": "\"Đây là phòng chạy bus / phòng kéo boss ạ.\"",
@@ -2741,14 +2732,14 @@
     },
     {
       "id": 1000046,
-      "mine": true,
+      "mine": false,
       "cat": "AFK",
-      "tag": "AFK / Nghỉ",
       "tags": [
         "giao tiếp",
         "afk"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "저흡연좀하다올게여",
         "vi": "\"Em/mình đi hút thuốc chút rồi quay lại nha!\" / \"Tôi đi hút thuốc một lát rồi về/lên lại liền.\"",
@@ -2757,14 +2748,14 @@
     },
     {
       "id": 1000047,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "giao tiếp",
         "raid / party"
       ],
-      "note": "xin slot",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "혹시 2명 더 되나요?",
         "vi": "\"Còn trống 2 slot cho 2 người nữa được không ạ?\"",
@@ -2773,14 +2764,14 @@
     },
     {
       "id": 1000048,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "giao tiếp",
         "lag"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "그는 연결이 끊겼나요?",
         "vi": "\"Người đó bị mất kết nối rồi ạ?\" / \"Bạn ấy bị rớt mạng rồi hả?\" (thg đó bị dis à?)",
@@ -2789,13 +2780,13 @@
     },
     {
       "id": 1000049,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "giao tiếp"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "무엇",
         "vi": "\"Cái gì?\" / \"cc j\"",
@@ -2804,14 +2795,14 @@
     },
     {
       "id": 1000050,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "giao tiếp",
         "nhân vật"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "제 서브 캐릭터예요",
         "vi": "\"Đây là char phụ của mình nha.\"",
@@ -2820,13 +2811,13 @@
     },
     {
       "id": 1000051,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "축하해요",
         "vi": "\"Chúc mừng nha!\" / \"Chúc mừng ạ!\"",
@@ -2835,13 +2826,13 @@
     },
     {
       "id": 1000052,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "giao tiếp"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "방장 키 좀 받을 수 있어요?",
         "vi": "\"Chủ phòng ơi, cho mình/em xin quyền chủ phòng (key) được không ạ?\"",
@@ -2850,13 +2841,13 @@
     },
     {
       "id": 1000053,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "giao tiếp"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "사람이 너무 없네요",
         "vi": "\"Ít người quá nhỉ / Ít người quá ạ!\"",
@@ -2865,15 +2856,15 @@
     },
     {
       "id": 1000054,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "party",
         "giao tiếp",
         "tele"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "키벨 뜰게요",
         "vi": "Tôi chạy mở tele",
@@ -2882,15 +2873,15 @@
     },
     {
       "id": 1000055,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "party",
         "giao tiếp",
         "tele"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "키벨 좀 부탁드려요",
         "vi": "Làm ơn mở Kibel cho t",
@@ -2899,15 +2890,15 @@
     },
     {
       "id": 1000056,
-      "mine": true,
+      "mine": false,
       "cat": "Raid",
-      "tag": "Raid / Party",
       "tags": [
         "party",
         "giao tiếp",
         "tele"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "키벨 타구 와요",
         "vi": "Có tele kìa / Hãy dùng tele",
@@ -2916,14 +2907,14 @@
     },
     {
       "id": 1000057,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp",
         "từ chối"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "안돼요",
         "vi": "\"Đừng mà\" / \"Không được ạ!\" / \"Không được nha!\"",
@@ -2932,14 +2923,14 @@
     },
     {
       "id": 1000058,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp",
         "từ chối"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "노",
         "vi": "\"Không\" / \"Không có\" / \"Không đâu\"",
@@ -2948,14 +2939,14 @@
     },
     {
       "id": 1000059,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp",
         "xác nhận"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "괜찮아요",
         "vi": "\"Được ạ!\" / \"Ổn nha!\"",
@@ -2964,14 +2955,14 @@
     },
     {
       "id": 1000060,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp",
         "xin lỗi"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "최송합니다",
         "vi": "\"Xin lỗi ạ!\" / \"Em xin lỗi ạ!\"",
@@ -2980,14 +2971,14 @@
     },
     {
       "id": 1000061,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp",
         "cảm ơn"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "감사하다",
         "vi": "\"Cảm ơn\" / \"Biết ơn\"",
@@ -2996,14 +2987,14 @@
     },
     {
       "id": 1000062,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp",
         "chào"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "안녕하세요~",
         "vi": "Chào mọi người nha~",
@@ -3012,14 +3003,14 @@
     },
     {
       "id": 1000063,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp",
         "chào"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "하이요",
         "vi": "Chào mọi người nha!",
@@ -3028,14 +3019,14 @@
     },
     {
       "id": 1000064,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp",
         "gg"
       ],
-      "note": "giống với ㅅㄱㅇ nhưng âm giọng nhẹ nhàng hơn",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "슈고용",
         "vi": "Vất vả rồi",
@@ -3044,14 +3035,14 @@
     },
     {
       "id": 1000065,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp",
         "gg"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "수고하셨숨당",
         "vi": "Mọi người vất vả rồi nhaa!",
@@ -3060,14 +3051,14 @@
     },
     {
       "id": 1000066,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp",
         "gg"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "수고하셨습니다",
         "vi": "Mọi người đã vất vả rồi ạ!",
@@ -3076,14 +3067,14 @@
     },
     {
       "id": 1000067,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp",
         "gg"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "ㅅㄱㅇ",
         "vi": "Làm tốt lắm",
@@ -3092,14 +3083,14 @@
     },
     {
       "id": 1000068,
-      "mine": true,
+      "mine": false,
       "cat": "Common",
-      "tag": "Thông dụng",
       "tags": [
         "giao tiếp",
         "gg"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "수고영",
         "vi": "Vất vả rồi nha!",
@@ -3108,14 +3099,14 @@
     },
     {
       "id": 1000069,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "giao tiếp",
         "lag"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "저 렉 걸렸어요 ㅠㅠ",
         "vi": "Em bị lag mất rồi :((",
@@ -3124,13 +3115,13 @@
     },
     {
       "id": 1000070,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "pc"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "ㅀ",
         "vi": "Xác nhận đang chơi PC",
@@ -3139,17 +3130,51 @@
     },
     {
       "id": 1000071,
-      "mine": true,
+      "mine": false,
       "cat": "Misc",
-      "tag": "Khác",
       "tags": [
         "pc"
       ],
-      "note": "",
+      "tags_i18n": {},
+      "count": 0,
       "text": {
         "ko": "ㄵ",
         "vi": "Xác nhận chơi PC",
         "en": "Yes, I'm playing on PC."
+      }
+    },
+    {
+      "id": 1000000,
+      "mine": true,
+      "cat": "Common",
+      "tag": "Thông dụng",
+      "tags": [
+        "giao tiếp",
+        "gg",
+        "afk"
+      ],
+      "note": "baby",
+      "text": {
+        "ko": "애기 데리러 가야해성 ㅅㄱ영",
+        "vi": "Mình phải đi đón bé rồi, mọi người làm tốt nha!",
+        "en": "I have to go pick up the baby/little one, good job everyone!"
+      }
+    },
+    {
+      "id": 1000001,
+      "mine": true,
+      "cat": "Common",
+      "tag": "Thông dụng",
+      "tags": [
+        "giao tiếp",
+        "gg",
+        "afk"
+      ],
+      "note": "vk gank",
+      "text": {
+        "ko": "와이프크리..이판하고 가봐야할거같아요 ㅠㅠ",
+        "vi": "Vợ gank rồi... chắc xong ván này mình phải đi thôi ㅠㅠ",
+        "en": "Wife wipe... think I might have to leave after this run ㅠㅠ"
       }
     }
   ]
